@@ -78,20 +78,20 @@ If not, please refer to the environment configuration of [SuGaR environment](htt
 In order to run our code, 
 ```
 # python train.py -s [path_to_dataset] -m [path_to_output] --eval
-# cd SuGaR-main
+# cd MeshExtractor
 # python train.py -s [path_to_dataset] -r <"density" or "sdf"> -c [path_to_output]
 ```
 Run demo:
 ```
 python train.py -s data/GRAPE/grape -m outputCKT/grape 
-cd SuGaR-main
+cd MeshExtractor
 python train.py -s data/GRAPE/grape -r density -c outputCKT/grape 
 ```
 
 
 
 ## ⭕️ Acknowledgment
-This project is based on [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) 
+This project is based on [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [SuGaR](https://github.com/Anttwo/SuGaR) 
 Thanks for the contribution of the open source community.
 
 

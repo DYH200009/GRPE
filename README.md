@@ -16,8 +16,7 @@ in terms of PSNR, LPIPS, and SSIM metrics.
 <img width="30%" alt="image" src="img/grape.gif">
 <img width="30%" alt="image" src="img/tomato.gif">
 </div>
-
-*GRAPE(Ours)'s mesh results on GRAPE datasets. *
+<p align="center"><strong>GRAPE (Ours)'s mesh results on some classes of the GRAPE dataset.</strong></p>
 
 
 

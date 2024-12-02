@@ -25,9 +25,9 @@ NGP and the 3DGS-based surface modeling method SuGaR
 in terms of PSNR, LPIPS, and SSIM metrics. 
 
 <div align="center">
-<img width="33%" alt="image" src="img/fig.gif">
-<img width="33%" alt="image" src="img/grape.gif">
-<img width="33%" alt="image" src="img/tomato.gif">
+<img width="30%" alt="image" src="img/fig.gif">
+<img width="30%" alt="image" src="img/grape.gif">
+<img width="30%" alt="image" src="img/tomato.gif">
 </div>
 
 *GRAPE(Ours)'s mesh results on GRAPE datasets. *

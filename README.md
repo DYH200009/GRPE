@@ -1,27 +1,14 @@
 # GRAPE: High-fidelity 3D Gaussian Reconstruction for Agricultural Plant Entities
 ## 📖 Abstract
-Plant phenotyping analysis is a crucial task in agricul-
-tural research, aiming to measure plant morphological data
-using tools such as calipers and radars. However, tradi-
-tional methods generally struggle to accurately capture the
-surface textures and structural features of plants. In this pa-
-per, we propose a unified architecture to reconstruct high-
-fidelity 3D surface models and render realistic plant views,
-which enhances geometric accuracy during Gaussian den-
-sification and mesh extraction from 2D images. First, we
-apply semantic segmentation with large language models
-to extract plant objects from 2D RGB images, generating
-sparse mappings and camera poses. These images and
-point clouds are then processed to produce Gaussian el-
-lipsoids and 3D textured models, with our method detect-
-ing smooth regions during densification. To ensure precise
+Plant phenotyping analysis is a crucial task in agricultural research, aiming to measure plant morphological data
+using tools such as calipers and radars. However, traditional methods generally struggle to accurately capture the
+surface textures and structural features of plants. In this paper, we propose a unified architecture to reconstruct high fidelity 3D surface models and render realistic plant views,which enhances geometric accuracy during Gaussian densification and mesh extraction from 2D images. First, we
+apply semantic segmentation with large language models to extract plant objects from 2D RGB images, generating
+sparse mappings and camera poses. These images and point clouds are then processed to produce Gaussian ellipsoids and 3D textured models, with our method detecting smooth regions during densification. To ensure precise
 alignment of Gaussians with object surfaces, our robust 3D
-Gaussian splatting method includes an outlier removal al-
-gorithm, produces more accurate models with less noise
-than traditional techniques. Experimental results demon-
-strate that our method outperforms existing plant modeling
-approaches, surpassing the NeRF-based method instant-
-NGP and the 3DGS-based surface modeling method SuGaR
+Gaussian splatting method includes an outlier removal algorithm, produces more accurate models with less noise
+than traditional techniques. Experimental results demonstrate that our method outperforms existing plant modeling
+approaches, surpassing the NeRF-based method instantNGP and the 3DGS-based surface modeling method SuGaR
 in terms of PSNR, LPIPS, and SSIM metrics. 
 
 <div align="center">

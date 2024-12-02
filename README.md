@@ -25,9 +25,9 @@ NGP and the 3DGS-based surface modeling method SuGaR
 in terms of PSNR, LPIPS, and SSIM metrics. 
 
 <div align="center">
-<img width="100%" alt="image" src="img/fig.gif">
-<img width="100%" alt="image" src="img/grape.gif">
-<img width="100%" alt="image" src="img/tomato.gif">
+<img width="33%" alt="image" src="img/fig.gif">
+<img width="33%" alt="image" src="img/grape.gif">
+<img width="33%" alt="image" src="img/tomato.gif">
 </div>
 
 *GRAPE(Ours)'s mesh results on GRAPE datasets. *
@@ -91,7 +91,7 @@ python train.py -s data/GRAPE/grape -r density -c outputCKT/grape
 
 
 ## ⭕️ Acknowledgment
-This project is based on [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [SuGaR](https://github.com/Anttwo/SuGaR) 
+This project is based on [GeoGussian](https://github.com/yanyan-li/GeoGaussian) and [SuGaR](https://github.com/Anttwo/SuGaR) 
 Thanks for the contribution of the open source community.
 
 

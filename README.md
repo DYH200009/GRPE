@@ -1,34 +1,28 @@
-# GRAPE: High-fidelity 3D Gaussian Reconstruction for Agricultural Plant Entities
+# GRPE: High-fidelity 3D Gaussian Reconstruction for Plant Entities
 ## 📖 Abstract
-Plant phenotyping analysis is a crucial task in agricultural research, aiming to measure plant morphological data
-using tools such as calipers and radars. However, traditional methods generally struggle to accurately capture the
-surface textures and structural features of plants. In this paper, we propose a unified architecture to reconstruct high fidelity 3D surface models and render realistic plant views,which enhances geometric accuracy during Gaussian densification and mesh extraction from 2D images. First, we
-apply semantic segmentation with large language models to extract plant objects from 2D RGB images, generating
-sparse mappings and camera poses. These images and point clouds are then processed to produce Gaussian ellipsoids and 3D textured models, with our method detecting smooth regions during densification. To ensure precise
-alignment of Gaussians with object surfaces, our robust 3D
-Gaussian splatting method includes an outlier removal algorithm, produces more accurate models with less noise
-than traditional techniques. Experimental results demonstrate that our method outperforms existing plant modeling
-approaches, surpassing the NeRF-based method instantNGP and the 3DGS-based surface modeling method SuGaR
-in terms of PSNR, LPIPS, and SSIM metrics. 
-
+Plant models hold significant importance for constructing virtual worlds. Currently, there is a lack of algorithms capable of achieving high-fidelity reconstruction of plant surfaces.
+In this paper, we propose a unified architecture to reconstruct high-fidelity 3D surface models and render realistic plant views, which enhances geometric accuracy during Gaussian densification and mesh extraction from 2D images.
+The algorithm initially employs large vision models for semantic segmentation to extract plant objects from 2D RGB images, generating sparse mappings and camera poses. Subsequently, these images and point clouds are processed to produce Gaussian ellipsoids and 3D textured models, with the algorithm detecting smooth regions during densification.
+To ensure precise alignment of the Gaussians with object surfaces, the algorithm incorporates a robust 3D Gaussian splatting method that includes an outlier removal algorithm. Compared to traditional techniques, this approach yields models that are more accurate and exhibit less noise.
+Experimental results demonstrate that our method outperforms existing plant modeling approaches, surpassing surpassing existing methods in terms of PSNR, LPIPS, and SSIM metrics. The high-precision annotated plant dataset and system code are available at \url{https://github.com/DYH200009/GRPE}.
 <div align="center">
 <img width="30%" alt="image" src="img/fig.gif">
 <img width="30%" alt="image" src="img/grape.gif">
 <img width="30%" alt="image" src="img/tomato.gif">
 </div>
-<p align="center"><strong>GRAPE (Ours)'s mesh results on some classes of the GRAPE dataset.</strong></p>
+<p align="center"><strong>GRPE (Ours)'s mesh results on some classes of the GRAPE dataset.</strong></p>
 
 
 
 
 
-## 🔧 Setup of GRAPE
+## 🔧 Setup of GRPE
 ### 1. Clone the repo.
 ```
 # https
-git clone https://github.com/DYH200009/GRAPE
+git clone https://github.com/DYH200009/GRPE
 # or ssh
-git clone git@github.com:DYH200009/GRAPE.git
+git clone git@github.com:DYH200009/GRPE.git
 ```
 
 ### 2. Environment setup.
@@ -83,15 +77,4 @@ Thanks for the contribution of the open source community.
 
 
 
-<!-- ## ✉️ Citation
-If you find this project useful in your research, please consider cite:
 
-*BibTex*
-```
-@article{li2024geogaussian,
-  title={GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering},
-  author={Li, Yanyan and Lyu, Chenyu and Di, Yan and Zhai, Guangyao and Lee, Gim Hee and Tombari, Federico},
-  journal={arXiv preprint arXiv:2403.11324},
-  year={2024}
-}
-``` -->

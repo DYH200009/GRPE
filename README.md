@@ -4,7 +4,7 @@ Plant models hold significant importance for constructing virtual worlds. Curren
 In this paper, we propose a unified architecture to reconstruct high-fidelity 3D surface models and render realistic plant views, which enhances geometric accuracy during Gaussian densification and mesh extraction from 2D images.
 The algorithm initially employs large vision models for semantic segmentation to extract plant objects from 2D RGB images, generating sparse mappings and camera poses. Subsequently, these images and point clouds are processed to produce Gaussian ellipsoids and 3D textured models, with the algorithm detecting smooth regions during densification.
 To ensure precise alignment of the Gaussians with object surfaces, the algorithm incorporates a robust 3D Gaussian splatting method that includes an outlier removal algorithm. Compared to traditional techniques, this approach yields models that are more accurate and exhibit less noise.
-Experimental results demonstrate that our method outperforms existing plant modeling approaches, surpassing surpassing existing methods in terms of PSNR, LPIPS, and SSIM metrics. The high-precision annotated plant dataset and system code are available at \url{https://github.com/DYH200009/GRPE}.
+Experimental results demonstrate that our method outperforms existing plant modeling approaches, surpassing surpassing existing methods in terms of PSNR, LPIPS, and SSIM metrics.
 <div align="center">
 <img width="30%" alt="image" src="img/fig.gif">
 <img width="30%" alt="image" src="img/grape.gif">

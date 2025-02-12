@@ -10,7 +10,7 @@ Experimental results demonstrate that our method outperforms existing plant mode
 <img width="30%" alt="image" src="img/grape.gif">
 <img width="30%" alt="image" src="img/tomato.gif">
 </div>
-<p align="center"><strong>GRPE (Ours)'s mesh results on some classes of the GRAPE dataset.</strong></p>
+<p align="center"><strong>GRPE (Ours)'s mesh results on some classes of the GRPE dataset.</strong></p>
 
 
 

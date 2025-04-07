@@ -51,7 +51,7 @@ If not, please refer to the environment configuration of [SuGaR environment](htt
 
 ### 3. Download the demo dataset
 - Create a new ``data`` folder
-- Download the file ([GRAPE-Dataset](https://drive.google.com/file/d/153DR5sdkT8pJUXNnMED4pkLfhWcas4MW/view?usp=sharing)).
+- Download the file ([GRPE-Dataset](https://drive.google.com/file/d/153DR5sdkT8pJUXNnMED4pkLfhWcas4MW/view?usp=sharing)).
 - Unzip it to ``data`` folder.
 
 ### 4. Run the codes 
@@ -63,9 +63,9 @@ In order to run our code,
 ```
 Run demo:
 ```
-python train.py -s data/GRAPE/grape -m outputCKT/grape 
+python train.py -s data/GRPE/grape -m outputCKT/grpe 
 cd MeshExtractor
-python train.py -s data/GRAPE/grape -r density -c outputCKT/grape 
+python train.py -s data/GRPE/grape -r density -c outputCKT/grpe 
 ```
 
 
